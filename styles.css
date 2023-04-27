@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@400;600&display=swap");
+/*font-family: 'Pathway Extreme', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pathway Extreme", sans-serif;
+  background-color: rgba(121, 82, 160, 0.959);
+}
+
+#wrapper {
+  min-height: 100vh;
+}
+
+#wrapper,
+.counter-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-content {
+  margin-bottom: 30px;
+  padding: 0.2rem 0rem;
+  background-color: #fff;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgba(121, 82, 160, 0.959);
+  font-weight: 600;
+}
+
+.addition,
+.subtraction {
+  padding: 0rem 1.5rem;
+  background-color: #fff;
+  border: none;
+  font-weight: 400;
+  font-size: 2rem;
+  cursor: pointer;
+  color: rgb(121, 121, 121);
+}
+
+.addition {
+  border-left: 3px solid rgb(203, 193, 193);
+}
+.subtraction {
+  border-right: 3px solid rgb(203, 193, 193);
+}
+
+.title {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-content {
+  color: #fff;
+  font-weight: 600;
+}
+
+.reset-content {
+  font-size: 3rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
